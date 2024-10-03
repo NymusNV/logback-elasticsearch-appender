@@ -2,11 +2,8 @@ steps:
   # Build and push to container registry
   # Clean, compile, and stage the code
   - name: 'gcr.io/cloud-builders/mvn'
-    args:
-      - '-c'
-      - |
-        mvn clean source:jar javadoc:jar verify install:install deploy:deploy
-
+    args: [ 'clean', 'source:jar', 'javadoc:jar', 'verify', 'install:install', 'deploy:deploy' ]
+    timeout: 1200s
 timeout: 1200s
 
 options:
