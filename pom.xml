@@ -4,12 +4,12 @@
 
     <groupId>com.agido</groupId>
     <artifactId>logback-elasticsearch-appender</artifactId>
-    <version>3.0.12</version>
+    <version>3.0.12.1</version>
     <packaging>jar</packaging>
 
     <name>Logback Elasticsearch Appender</name>
     <description>Send log events directly from Logback to Elasticsearch</description>
-    <url>https://github.com/agido-malter/logback-elasticsearch-appender</url>
+    <url>https://github.com/NymusNV/logback-elasticsearch-appender</url>
 
     <licenses>
         <license>
@@ -20,18 +20,21 @@
     </licenses>
 
     <organization>
-        <name>agido GmbH</name>
-        <url>https://agido.com/</url>
+        <name>Nymus NV</name>
     </organization>
 
     <scm>
-        <connection>scm:git:https://github.com/agido-malter/logback-elasticsearch-appender.git</connection>
-        <developerConnection>scm:git:https://github.com/agido-malter/logback-elasticsearch-appender.git</developerConnection>
-        <url>https://github.com/agido-malter/logback-elasticsearch-appender</url>
+        <connection>scm:git:https://github.com/NymusNV/logback-elasticsearch-appender.git</connection>
+        <developerConnection>scm:git:https://github.com/NymusNV/logback-elasticsearch-appender.git</developerConnection>
+        <url>https://github.com/NymusNV/logback-elasticsearch-appender</url>
         <tag>HEAD</tag>
     </scm>
 
     <developers>
+		<developer>
+			<name>Raymond Bultynck</name>
+			<email>raymond@nymus.be</email>
+		</developer>
         <developer>
             <name>Joerg Malter</name>
             <email>joerg.malter@agido.com</email>
