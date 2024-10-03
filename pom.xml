@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.agido</groupId>
-    <artifactId>nymus-logback-elasticsearch-appender</artifactId>
+    <artifactId>ny-logback-elasticsearch-appender</artifactId>
     <version>3.0.12.1</version>
     <packaging>jar</packaging>
 
