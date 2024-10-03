@@ -10,7 +10,7 @@ steps:
       'deploy:deploy-file',
       '-DrepositoryId=artifact-registry',
       '-Durl=https://europe-west1-maven.pkg.dev/op-paas-prod/releases',
-      '-Dfile=target/ny-logback-elasticsearch-appender.jar',
+      '-Dfile=target/ny-logback-elasticsearch-appender-3.0.12.1.jar',
       '-DgroupId=com.nymus',
       '-DartifactId=ny-logback-elasticsearch-appender',
       '-Dversion=3.0.12.1',
