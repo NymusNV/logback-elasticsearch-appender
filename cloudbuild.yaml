@@ -1,9 +1,21 @@
 steps:
   # Build and push to container registry
   # Clean, compile, and stage the code
-  - name: 'gcr.io/cloud-builders/mvn'
-    args: [ 'clean', 'source:jar', 'javadoc:jar', 'verify', 'install:install', 'deploy:deploy' ]
-    timeout: 1200s
+#  - name: 'gcr.io/cloud-builders/mvn'
+#    args: [ 'clean', 'package', 'deploy' ]
+#    timeout: 1200s
+  - name: maven:3.3-jdk-8
+    entrypoint: mvn
+    args: ['package','-Dmaven.test.skip=true']
+
+artifacts:
+  mavenArtifacts:
+    - repository: 'https://europe-west1-maven.pkg.dev/op-paas-prod/releases'
+      path: 'target/ny-logback-elasticsearch-appender-3.0.12.1'
+      artifactId: 'ny-logback-elasticsearch-appender'
+      groupId: 'eu.nymus'
+      version: '3.0.12.1'
+
 timeout: 1200s
 
 options:

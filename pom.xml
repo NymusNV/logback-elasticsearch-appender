@@ -185,17 +185,17 @@
         </profile>
     </profiles>
 
-    <distributionManagement>
-        <snapshotRepository>
-			<id>artifact-registry</id>
-			<name>Google Artifact Registry</name>
-			<url>https://europe-west1-maven.pkg.dev/op-paas-prod/snapshots</url>
-        </snapshotRepository>
-        <repository>
-			<id>artifact-registry</id>
-			<name>Google Artifact Registry</name>
-			<url>https://europe-west1-maven.pkg.dev/op-paas-prod/releases</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--			<id>artifact-registry</id>-->
+<!--			<name>Google Artifact Registry</name>-->
+<!--			<url>https://europe-west1-maven.pkg.dev/op-paas-prod/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--			<id>artifact-registry</id>-->
+<!--			<name>Google Artifact Registry</name>-->
+<!--			<url>https://europe-west1-maven.pkg.dev/op-paas-prod/releases</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
 </project>
