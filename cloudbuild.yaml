@@ -11,8 +11,8 @@ steps:
 artifacts:
   mavenArtifacts:
     - repository: 'https://europe-west1-maven.pkg.dev/op-paas-prod/releases'
-      path: 'target/ny-logback-elasticsearch-appender-3.0.12.1'
-      artifactId: 'ny-logback-elasticsearch-appender'
+      path: 'target/nymus-logback-elasticsearch-appender-3.0.12.1.jar'
+      artifactId: 'nymus-logback-elasticsearch-appender'
       groupId: 'eu.nymus'
       version: '3.0.12.1'
 
